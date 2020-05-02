@@ -23,12 +23,28 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
-    
+
+    <link href="css/jscss.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/js-css.js"></script>
+    <script type="text/javascript">
+      myEvent(window,'load',function(){
+        cs_box.set({
+          img_path : 'images/jscss.jpg', // 
+          qq : '1239537703', // 
+        });
+      });
+    </script>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
  
-
+    <div id='cs_box'>
+      <span class='cs_title'>在线咨询</span>
+      <span class='cs_close'>x</span>
+      <div class='cs_img'></div>
+      <span class='cs_info'>有什么可以帮到你</span>
+      <div class='cs_btn'>点击咨询</div>
+    </div>
 
   <div class="site-wrap">
 
@@ -89,6 +105,7 @@
       
     </header>
 
+    
   
      
     <div class="site-blocks-cover overlay" style="background-image: url(images/landpage.jpg);" data-aos="fade" id="home-section">
@@ -132,7 +149,6 @@
       </a>
     </div> 
 
-	
 
     <div class="site-section" id="next">
       <div class="container">
@@ -439,18 +455,7 @@
           </div>
          
         </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-              <p class="copyright"><small>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
-        
-            </div>
-          </div>
-          
-        </div>
+     
       </div>
     </footer>
 
@@ -467,7 +472,7 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
-
+  
   
   <script src="js/main.js"></script>
 
